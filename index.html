@@ -3,72 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #444;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #ffffff;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        #ghl {
-            color: white
-        }
-        #milk {
-            color: black
-    }
-    </style>
+    <title>The Pineapple Man - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>The Pineapple Man</h1>
+        <h1>Welcome to The Pineapple Man's Website</h1>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="About.html">About Me</a>
-        <a href="Contact.html">Contact Me</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
     </nav>
     <main>
-        <h2>Home</h2>
-        <p>You can find all my projects below.</p>
-        <h2>Outlook-auto-email</h2>
-        <p>Outlook Auto Emailer, Automatically sends people emails using outlook. Still early development. You can find it <a href="https://github.com/the-pineapple-man/Outlook-auto-email">Here</a>.<p>
-        <h2>chrome and edge password Stealer</h2>
-        <p>It steals cookies, history, saved passwords, and credit card details on microsoft edge and google chrome. You can find it <a href="https://github.com/the-pineapple-man/chrome-and-edge-password-Stealer">Here</a>.</p>
-        <h2>Mouse Mover</h2>
-        <p>This program will move your mouse so that people with think that you are still working. You can find it <a href="https://github.com/the-pineapple-man/Mouse-Mover">Here</a></p>
+        <section class="project">
+            <h2>Outlook Auto Emailer</h2>
+            <p>An automated email sender built with Outlook integration. Early development stage.</p>
+            <a href="https://github.com/the-pineapple-man/Outlook-auto-email" class="project-link">View Project</a>
+        </section>
+        <section class="project">
+            <h2>Chrome and Edge Password Stealer</h2>
+            <p>A tool for extracting cookies, history, passwords, and credit card details from Chrome and Edge browsers.</p>
+            <a href="https://github.com/the-pineapple-man/chrome-and-edge-password-stealer" class="project-link">View Project</a>
+        </section>
+        <section class="project">
+            <h2>Mouse Mover</h2>
+            <p>A utility to simulate mouse movements to maintain an active workstation appearance.</p>
+            <a href="https://github.com/the-pineapple-man/mouse-mover" class="project-link">View Project</a>
+        </section>
     </main>
     <footer>
-        <p><a id=ghl href="https://github.com/the-pineapple-man">Github</a></p>
-        <p>&copy; 2024 the-pineapple-man. All rights reserved.</p>
+        <p>&copy; 2024 The Pineapple Man. All rights reserved.</p>
+        <a id="ghl" href="https://github.com/the-pineapple-man">GitHub</a>
     </footer>
 </body>
 </html>
